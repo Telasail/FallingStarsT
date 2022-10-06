@@ -27,7 +27,7 @@ export default class player {
     ctx.fillStyle = 'white';
     //black line
     ctx.fillRect(this.x, this.y, this.w, this.h);
-    ctx.fillStyle = 'rgb(225, 125, 20)';
+    ctx.fillStyle = 'rgb(111, 3, 143)';
     //square itself
     ctx.fillRect(this.x + 5, this.y + 5, this.w-10, this.h-10);
   }
