@@ -30,7 +30,7 @@ export default class fallingBlocks {
     }
   }
   draw(ctx) {
-    ctx.fillStyle = 'white';
+    ctx.fillStyle = 'yellow';
     ctx.fillRect(this.x, this.y, this.w, this.h);
   }
-}
+})
