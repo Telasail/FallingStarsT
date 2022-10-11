@@ -33,4 +33,4 @@ export default class fallingBlocks {
     ctx.fillStyle = 'yellow';
     ctx.fillRect(this.x, this.y, this.w, this.h);
   }
-})
+}
